@@ -1,0 +1,157 @@
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fbf7ec;
+}
+
+.nav {
+  display: flex;
+  margin: 20px;
+  position: relative;
+  justify-content: space-around;
+}
+
+.title-h1 {
+  margin-top: 30px;
+}
+.nav-list {
+  display: flex;
+  margin-top: 36px;
+}
+
+.nav-items {
+  list-style-type: none;
+  margin-left: 35px;
+  margin-right: 15px;
+}
+
+.signup-btn,
+.login-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+  background: #004c3f;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+a {
+  background: #004c3f;
+  text-decoration: none;
+  color: white;
+}
+
+.body-div {
+  display: flex;
+  margin: 60px 60px 0px 60px;
+}
+.platform-div {
+  width: 470px;
+  height: 417px;
+  margin-left: 80px;
+  margin-top: 70px;
+}
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 30px;
+  gap: 10px;
+  position: absolute;
+  width: 120px;
+  height: 40px;
+  left: 135px;
+  top: 585px;
+  background: #004c3f;
+  border-radius: 20px;
+}
+
+.login-btn1 {
+  left: 135px;
+}
+.login-btn1 > a {
+  color: #ffdb95;
+}
+.login-btn2 {
+  left: 400px;
+}
+
+.login-div {
+  display: flex;
+}
+.platform-h1 {
+  position: absolute;
+  width: 470px;
+  height: 210px;
+  left: 135px;
+  top: 232px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 70px;
+  letter-spacing: 0.02em;
+  color: #004c3f;
+}
+
+.platform-p {
+  position: absolute;
+  width: 403px;
+  height: 84px;
+  left: 135px;
+  top: 467px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #57605e;
+}
+
+.site {
+  font-family: "Anybody", cursive;
+  font-family: "Inter", sans-serif;
+  font-family: "Work Sans", sans-serif;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.services,
+.feature1,
+.feature2 {
+  margin: 0 auto;
+  margin-left: 15%;
+  height: 80%;
+  width: 80%;
+  margin-top: 0px;
+}
+
+.services-img,
+.feature1-img,
+.feature2-img {
+  height: 90%;
+  width: 90%;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  height: 55%;
+  background-image: url("./images/footer.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.error {
+  text-align: center;
+}
+
+.error a {
+  padding: 5px 10px;
+  border-radius: 10px;
+}

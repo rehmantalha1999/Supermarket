@@ -1,0 +1,382 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(96, 97, 97);
+}
+
+#nav {
+  background: rgb(65, 65, 65);
+  padding: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#nav form {
+  display: flex;
+  align-items: center;
+}
+
+#nav form input {
+  padding: 5px 10px;
+  border: 3px solid green;
+  font-size: 14px;
+  border-radius: 10px;
+}
+
+#nav form button {
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 0;
+  background-color: green;
+  color: white;
+  width: 100%;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+#title span {
+  margin-left: 20px;
+}
+
+#title {
+  text-align: center;
+  font-size: 30px;
+  padding: 10px;
+  color: rgb(202, 202, 203);
+}
+
+.product-blocks {
+  display: flex;
+  margin: 50px;
+  gap: 50px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.product {
+  width: 400px;
+  background-color: rgb(235, 235, 235);
+  box-shadow: 10px 10px 22px 0px rgba(0, 0, 0, 0.46);
+  margin: 20px 0;
+  padding-bottom: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.product-title {
+  margin: 0;
+  text-align: center;
+  padding: 10px;
+  text-transform: capitalize;
+}
+
+.product-image {
+  width: 100%;
+  height: 300px;
+}
+
+.product-detail {
+  margin: 0 20px;
+}
+
+.product-detail p {
+  font-size: 16px;
+}
+
+.product-detail p span {
+  color: green;
+  font-weight: bold;
+}
+
+.product .buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product .buttons a,
+.complete-checkout a,
+.back-btn,
+.logout-link {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  background-color: green;
+  padding: 10px 30px;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.verify_error {
+  text-align: center;
+  color: white;
+}
+
+.card-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-container form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 22px 0px rgba(255, 255, 255, 0.46);
+  text-align: center;
+  background-color: white;
+}
+
+.card-container form h1 {
+  font-size: 48px;
+  line-height: 1;
+  margin: 10px 0 30px 0;
+  color: #004c3f;
+}
+
+.input-container,
+.file-input-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.input-container label,
+.file-input-container label {
+  font-size: 20px;
+  font-weight: bold;
+  color: #004c3f;
+  margin-bottom: 5px;
+  margin-right: 20px;
+  width: 350px;
+  text-align: left;
+}
+
+.input-container input {
+  width: 100%;
+  border-radius: 20px;
+  border: 2px solid #004c3f;
+  padding: 10px 15px;
+  color: #01382f;
+  font-size: 16px;
+}
+
+.file-input-container input {
+  width: 100%;
+}
+
+.card-container form .buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0 20px 0;
+}
+
+.card-container form .buttons a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  background-color: red;
+  margin-left: 20px;
+  padding: 10px 30px;
+  border-radius: 20px;
+  font-size: 16px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.btn-submit {
+  background-color: #004c3f;
+  color: white;
+  border-radius: 20px;
+  padding: 10px 40px;
+  border: 0;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.error-message {
+  color: red;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.add-product-image {
+  max-height: 150px;
+}
+
+#nav a.link {
+  text-decoration: none;
+  font-size: 20px;
+  background-color: #01382f;
+  padding: 10px 20px;
+  border-radius: 15px;
+  margin-left: 20px;
+  color: white;
+}
+
+#nav a.logout-link {
+  background-color: red;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.cart_image {
+  height: 30px;
+  width: 50px;
+}
+
+.quantity-display {
+  font-size: 20px;
+  margin: 0 20px;
+}
+
+.quantity-container {
+  display: flex;
+  align-items: center;
+}
+
+.product .quantity-container a {
+  padding: 10px 50px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a.disabled {
+  background-color: #aaa !important;
+}
+
+.cart-count {
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+}
+
+.cart {
+  display: flex;
+  text-decoration: none;
+}
+
+.section-title {
+  margin-left: 20px;
+  color: white;
+}
+
+.checkout-table {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  background-color: white;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  overflow: hidden;
+  gap: 20px;
+}
+
+.checkout-product-image {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+}
+.checkout-footer {
+  text-align: center;
+}
+
+.checkout-details {
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  background-color: white;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.complete-checkout {
+  text-align: center;
+}
+
+.card-container form .buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0 20px 0;
+}
+
+.card-container form .buttons a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  background-color: red;
+  margin-left: 20px;
+  padding: 10px 30px;
+  border-radius: 20px;
+  font-size: 16px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.card-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-container form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 22px 0px rgba(255, 255, 255, 0.46);
+  text-align: center;
+  background-color: white;
+}
+
+.card-container form h1 {
+  font-size: 48px;
+  line-height: 1;
+  margin: 10px 0 30px 0;
+  color: #004c3f;
+}
+
+.input-container,
+.file-input-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.input-container label,
+.file-input-container label {
+  font-size: 20px;
+  font-weight: bold;
+  color: #004c3f;
+  margin-bottom: 5px;
+  margin-right: 20px;
+  width: 350px;
+  text-align: left;
+}
+
+.input-container input {
+  width: 100%;
+  border-radius: 20px;
+  border: 2px solid #004c3f;
+  padding: 10px 15px;
+  color: #01382f;
+  font-size: 16px;
+}
