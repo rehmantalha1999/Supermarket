@@ -1,8 +1,8 @@
 <?php
 
-$dsn = "mysql:host=localhost;port=3306;dbname=metaquest;charset=utf8mb4";
-$user = "root";
-$pass = "";
+$dsn = "mysql:host=sql7.freemysqlhosting.net;port=3306;dbname=sql7561674;charset=utf8mb4";
+$user = "sql7561674";
+$pass = "MjKcLctxbZ";
 
 try {
     $db = new PDO($dsn, $user, $pass);
